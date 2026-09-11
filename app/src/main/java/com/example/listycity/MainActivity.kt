@@ -115,7 +115,7 @@ fun CityListScreen(
                 Box(
                     modifier = Modifier
                         .fillMaxWidth()
-                        .background(if (isSelected) Color.LightGray.copy(alpha = 0.4f) else Color.Transparent)
+                        .background(if (isSelected) Color.LightGray.copy(alpha = 0.5f) else Color.Transparent)
                         .clickable { selectedCity = city }
                 ) {
                     CityRow(city = city)
